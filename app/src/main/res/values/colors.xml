@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00a0f5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="fondos">#74B635</color>
+    <color name="fondosb">#54B635</color>
+    <color name="ninos">#59991B</color>
+    <color name="entradas">#CA603B</color>
+    <color name="guarni">#E88462</color>
+    <color name="postres">#7E2784</color>
+    <color name="ccomanda">#582A72</color>
+    <color name="cboff">#d4d6d8</color>
+    <color name="tomado">#6E1237</color>
+    <color name="red">#FF00</color>
+    <!--<color name="colorAccent">#ffffff</color>-->
+    <color name="fondot">#C7C7C7C7</color>
+    <color name="black">#000000</color>
+    <color name="over">#6d6e71</color>
+    <color name="bamarillo">#ffb500</color>
+    <color name="bamarillodark">#8d660b</color>
+    <color name="brojo">#e50150</color>
+    <color name="brojodark">#8f0535</color>
+    <color name="bgn">#8cc63f</color>
+    <color name="bgndark">#59991B</color>
+    <!-- COLORES MESAS-->
+    <color name="tableBorderFree">#D5D6DA</color>
+    <color name="tableInsideFree">#B0BAC4</color>
+    <color name="whiteText">#F3F3F5</color>
+    <color name="categoryText">#333333</color>
+    <color name="breakLine">#AEA9AA</color>
+    <!-- COLORES MENSAJES-->
+    <color name="bar">#E60050</color>
+    <color name="barp">#CF0048</color>
+    <color name="caja">#9BC832</color>
+    <color name="cajap">#8CB42D</color>
+    <color name="cocina">#FFB400</color>
+    <color name="cocinap">#E6A200</color>
+    <color name="geren">#000000</color>
+    <color name="gerenp">#7F7F7F</color>
+    <color name="mesa">#00A0F5</color>
+    <color name="mesap">#0090F1</color>
+    <!--Checks-->
+    <color name="colorCheck">#FF4081</color>
+    <color name="white">#FFFFFF</color>
+    <color name="letras">#7D7D7D</color>
+</resources>

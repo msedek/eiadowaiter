@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/elPadreOrder"
+    tools:context=".MainOrderActivity">
+
+    <include
+        layout="@layout/activity_order"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="MissingConstraints" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="1.0" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.85" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.08" />
+
+    <LinearLayout
+        android:id="@+id/overlayParent"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginEnd="12dp"
+        android:gravity="bottom"
+        app:layout_constraintBottom_toTopOf="@+id/guideline15"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/guideline18">
+
+        <LinearLayout
+            android:id="@+id/overlay"
+            android:layout_width="match_parent"
+            android:layout_height="152.4dp"
+            android:background="@color/whiteText"
+            android:orientation="vertical"
+            android:paddingTop="10dp"
+            tools:ignore="UselessParent">
+
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="30dp">
+
+                <TextView
+                    android:id="@+id/txtArrow"
+                    android:layout_width="32dp"
+                    android:layout_height="38dp"
+                    android:layout_marginStart="7dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center"
+                    android:text="A"
+                    android:textAlignment="center"
+                    android:textColor="@color/categoryText"
+                    android:textSize="22sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="HardcodedText,NestedWeights" />
+
+                <EditText
+                    android:id="@+id/searchBox"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_marginStart="108dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="4dp"
+                    android:background="@android:color/transparent"
+                    android:hint="Buscar"
+                    android:paddingLeft="3dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/txtArrow"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="Autofill,HardcodedText,RtlHardcoded,RtlSymmetry,TextFields" />
+
+            </android.support.constraint.ConstraintLayout>
+
+            <ScrollView
+                android:id="@+id/scrollOrder"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:id="@+id/orderContentLinear"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    tools:ignore="ScrollViewSize">
+
+                </LinearLayout>
+
+            </ScrollView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="513dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="628dp" />
+
+</android.support.constraint.ConstraintLayout>
